@@ -4,5 +4,5 @@ collection: portfolio
 date: 2023-10-01
 role: "Team DIMO"
 venue: ""
-url: "https://www.kirak.kim/dimo"
+external_url: "https://www.kirak.kim/dimo"
 ---

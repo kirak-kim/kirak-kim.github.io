@@ -4,5 +4,5 @@ collection: portfolio
 date: 2025-11-01
 role: "Technical director"
 venue: ""
-url: "https://tickets.interpark.com/goods/25015075"
+external_url: "https://tickets.interpark.com/goods/25015075"
 ---

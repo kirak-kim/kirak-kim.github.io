@@ -4,5 +4,5 @@ collection: portfolio
 date: 2023-09-01
 role: "w/ Hyeyeon Lee, Hangyeol Jo"
 venue: "Gallery Giotta"
-url: "https://www.kirak.kim/marbling"
+external_url: "https://www.kirak.kim/marbling"
 ---
