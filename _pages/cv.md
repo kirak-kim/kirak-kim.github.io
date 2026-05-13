@@ -9,56 +9,40 @@ redirect_from:
 
 {% include base_path %}
 
+[Download CV (PDF)](/files/Kirak_Kim_CV_2026.pdf)
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. in Culture Technology, KAIST, 2025 — present  
+  AIRIS Lab · Advisor: Sungyoung Kim
+* M.S. in Metaverse, KAIST, 2023 — 2025  
+  Advisor: Juhan Nam
+* M.A. candidate in Art & Technology, Sogang University, 2021 — 2023  
+  Advisor: Moonryul Jung · coursework completed
+* B.S. in Integrated Technology, Yonsei University, 2018 — 2021
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Unity · C#
+* Wwise
+* AR / VR / XR
+* PyTorch · Deep Learning
+* Spatial Audio
+* Generative Models
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+Awards
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+* 2024 AI × Art Hackathon · 3rd Prize
+* 2023 KEA AR/VR Specialist Training Program · 2nd Prize
+* 2022 KEA AR/VR Specialist Training Program · 1st Prize
+
+Academic Service
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* ISMIR 2025 — Volunteer Co-Chair
+* CHI 2026 — Poster Ninja Reviewer

@@ -1,14 +1,20 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Art Projects"
 permalink: /portfolio/
 author_profile: true
 ---
 
 {% include base_path %}
 
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
+{% for post in site.portfolio reversed %}
+  <div style="padding: 0.75rem 0; border-bottom: 1px solid #eee;">
+    <span style="font-size: 0.8em; color: #888;">{{ post.date | date: "%b %Y" }}</span>
+    <h3 style="margin: 0.2rem 0;">
+      {% if post.url %}<a href="{{ post.url }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
+      {% else %}{{ post.title }}{% endif %}
+    </h3>
+    {% if post.venue %}<p style="margin: 0; color: #666; font-size: 0.9em;">{{ post.venue }}</p>{% endif %}
+    {% if post.role %}<p style="margin: 0; color: #888; font-size: 0.85em; font-style: italic;">{{ post.role }}</p>{% endif %}
+  </div>
 {% endfor %}
-
