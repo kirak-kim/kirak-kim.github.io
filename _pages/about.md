@@ -19,24 +19,27 @@ My research explores virtual environments, artificial intelligence, and spatial 
 
 {% assign cat_posts = site.publications | where: "category", "international" | sort: "date" | reverse %}
 {% for post in cat_posts %}
-- {% if post.paperurl %}[**{{ post.title }}**]({{ post.paperurl }}){% else %}**{{ post.title }}**{% endif %}  
-  {{ post.authors }} · *{{ post.venue }}*
+- **{{ post.title }}**{% if post.paperurl %} \[[Link]({{ post.paperurl }})\]{% endif %}  
+  {{ post.authors }}  
+  *{{ post.venue }}*
 {% endfor %}
 
 ### Posters, Demos, and Workshop Papers
 
 {% assign cat_posts = site.publications | where: "category", "demos" | sort: "date" | reverse %}
 {% for post in cat_posts %}
-- {% if post.paperurl %}[**{{ post.title }}**]({{ post.paperurl }}){% else %}**{{ post.title }}**{% endif %}  
-  {{ post.authors }} · *{{ post.venue }}*
+- **{{ post.title }}**{% if post.paperurl %} \[[Link]({{ post.paperurl }})\]{% endif %}  
+  {{ post.authors }}  
+  *{{ post.venue }}*
 {% endfor %}
 
 ### Domestic (Korean)
 
 {% assign cat_posts = site.publications | where: "category", "domestic" | sort: "date" | reverse %}
 {% for post in cat_posts %}
-- {% if post.paperurl %}[**{{ post.title }}**]({{ post.paperurl }}){% else %}**{{ post.title }}**{% endif %}  
-  {{ post.authors }} · *{{ post.venue }}*
+- **{{ post.title }}**{% if post.paperurl %} \[[Link]({{ post.paperurl }})\]{% endif %}  
+  {{ post.authors }}  
+  *{{ post.venue }}*
 {% endfor %}
 
 ---

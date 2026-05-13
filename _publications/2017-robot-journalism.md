@@ -4,7 +4,7 @@ collection: publications
 category: international
 permalink: /publication/2017-robot-journalism
 date: 2017-01-01
-venue: "ICACT 2017, pp. 566–570"
-paperurl: "https://www.kirak.kim/robot_journalism"
-authors: "N. Lee, <b>K. Kim</b>, T. Yoon"
+venue: "19th International Conference on Advanced Communication Technology (ICACT), 2017"
+paperurl: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7890154"
+authors: "Naeun Lee, <strong>Kirak Kim</strong>, Taeseon Yoon"
 ---

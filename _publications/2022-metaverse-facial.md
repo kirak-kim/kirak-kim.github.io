@@ -5,6 +5,6 @@ category: domestic
 permalink: /publication/2022-metaverse-facial
 date: 2022-01-01
 venue: "컴퓨터그래픽스학회논문지, 28(3), 23–29"
-paperurl: "https://www.kirak.kim/metaverse_facial_expression"
-authors: "김기락, 연희연, 은태영, 정문열"
+paperurl: "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002862290"
+authors: "<strong>김기락</strong>, 연희연, 은태영, 정문열"
 ---
