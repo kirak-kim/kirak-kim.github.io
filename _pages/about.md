@@ -15,22 +15,28 @@ My research explores virtual environments, artificial intelligence, and spatial 
 ## Publications
 {: #publications }
 
-{% assign categories = "international,demos,domestic" | split: "," %}
-{% assign category_titles = "International Conferences,Posters, Demos, and Workshop Papers,Domestic (Korean)" | split: "," %}
+### International Conferences
 
-{% for i in (0..2) %}
-{% assign cat = categories[i] %}
-{% assign cat_title = category_titles[i] %}
-{% assign cat_posts = site.publications | where: "category", cat | sort: "date" | reverse %}
-{% if cat_posts.size > 0 %}
-### {{ cat_title }}
-
+{% assign cat_posts = site.publications | where: "category", "international" | sort: "date" | reverse %}
 {% for post in cat_posts %}
 - {% if post.paperurl %}[**{{ post.title }}**]({{ post.paperurl }}){% else %}**{{ post.title }}**{% endif %}  
   {{ post.authors }} · *{{ post.venue }}*
 {% endfor %}
 
-{% endif %}
+### Posters, Demos, and Workshop Papers
+
+{% assign cat_posts = site.publications | where: "category", "demos" | sort: "date" | reverse %}
+{% for post in cat_posts %}
+- {% if post.paperurl %}[**{{ post.title }}**]({{ post.paperurl }}){% else %}**{{ post.title }}**{% endif %}  
+  {{ post.authors }} · *{{ post.venue }}*
+{% endfor %}
+
+### Domestic (Korean)
+
+{% assign cat_posts = site.publications | where: "category", "domestic" | sort: "date" | reverse %}
+{% for post in cat_posts %}
+- {% if post.paperurl %}[**{{ post.title }}**]({{ post.paperurl }}){% else %}**{{ post.title }}**{% endif %}  
+  {{ post.authors }} · *{{ post.venue }}*
 {% endfor %}
 
 ---
