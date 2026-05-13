@@ -4,5 +4,4 @@ collection: portfolio
 date: 2021-08-01
 role: "by Tera e inferno · participated as actor"
 venue: ""
-external_url: "https://www.kirak.kim/ibeibeyou"
 ---

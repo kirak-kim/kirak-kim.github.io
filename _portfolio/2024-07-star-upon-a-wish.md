@@ -4,5 +4,4 @@ collection: portfolio
 date: 2024-07-01
 role: "w/ Jisu Kim, Hyeyeon Lee"
 venue: "Misan Art Space"
-external_url: "https://www.kirak.kim/staruponawish"
 ---
