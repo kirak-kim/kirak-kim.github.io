@@ -7,8 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm a Ph.D. student at [AIRIS Lab](https://airislab.kaist.ac.kr), KAIST, and currently a visiting researcher at CARTE, University of Toronto.
-My research explores virtual environments, artificial intelligence, and spatial audio, with a recent focus on text-to-RIR generation for room impulse responses. I'm particularly interested in audio experiences in virtual spaces.
+Hi! I'm a Ph.D. student at [AIRIS Lab](https://airislab.kaist.ac.kr). I'm interested in creating immersive audio experiences in virtual spaces. My research explores virtual environments, artificial intelligence, and spatial audio, with a recent focus on text-to-RIR generation using pretrained audio generative models.
 
 ---
 
